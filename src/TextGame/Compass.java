@@ -12,6 +12,12 @@ public abstract class Compass extends Swamp {
 
     This class will also have the calculation for the location of the treasure.
      */
+    public Compass(){
+        this.currentLocation = 0;
+        this.treasureLocation = 20;
+
+    }
+
     public Compass(int currentLocation){
         this.currentLocation = currentLocation;
     }

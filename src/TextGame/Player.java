@@ -11,6 +11,10 @@ public class Player extends Compass {
     ArrayList<Player> player = new ArrayList<>();
     String name;
 
+    public Player(){
+        this.name = "Aisha";
+    }
+
     public Player(int currentLocation, String name) {
         super(currentLocation);
         this.name = name;
@@ -20,15 +24,15 @@ public class Player extends Compass {
         this.player.add(player);
     }
 
-    protected Player loopArray(Player a){
-        for(Player p: player){
-            if(p.player.contains(Outputs.line)){
-                a = p;
-                System.out.println(p);
-            }
-        }
-        return a;
-    }
+//    protected Player loopArray(Player a){
+//        for(Player p: player){
+//            if(p.player.contains(Outputs.line)){
+//                a = p;
+//                System.out.println(p);
+//            }
+//        }
+//        return a;
+//    }
 
 
     @Override

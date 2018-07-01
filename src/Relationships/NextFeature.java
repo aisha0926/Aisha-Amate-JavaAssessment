@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class NextFeature extends Player {
     ArrayList<Player> val = new ArrayList<>();
+    
 
 
     public NextFeature(){}

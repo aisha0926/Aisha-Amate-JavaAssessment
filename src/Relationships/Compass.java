@@ -4,6 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Compass extends Swamp{
+
     protected int location;
 
     public Compass(){
